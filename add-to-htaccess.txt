@@ -1,0 +1,4 @@
+Add the instructions following the dotted line into your .htaccess file. Remember that the additional line also disables directory listing, which Apache activates by default. If you don't need this feature, just add the first line. [github.com/disketteomelette]
+-----------------------------------------------------------------
+ErrorDocument 500 error-500.php
+Options -Indexes
